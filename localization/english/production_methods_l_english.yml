@@ -1,0 +1,12 @@
+l_english:
+ pm_bar_beer:0 "Beer Hall"
+ pm_bar_liquor:0 "Spirit Bar"
+ pm_restaurant_meat:0 "Bistro"
+ pm_restaurant_groceries:0 "Grocers' Kitchen"
+ pm_cafe_coffee:0 "Coffeehouse"
+ pm_cafe_tea:0 "Tea Room"
+ pm_dispensary_tobacco:0 "Tobacconist"
+ pmg_base_building_bar:1 "$pm_base$"
+ pmg_base_building_restaurant:1 "$pm_base$"
+ pmg_base_building_cafe:1 "$pm_base$"
+ pmg_base_building_dispensary:1 "$pm_base$"

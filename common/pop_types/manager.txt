@@ -1,0 +1,15 @@
+manager = {
+    texture = "gfx/interface/icons/pops_icons/manager.dds"
+    color = hsv{ 0.28 0.45 0.80 }
+    unemployment = yes
+    wage_weight = 1.4
+    paid_private_wage = yes
+    literacy_target = 0.25
+    education_access = 0.25
+    political_engagement_base = 0.3
+    political_engagement_literacy_factor = 0.6
+    start_quality_of_life = 8
+    dependent_wage = 0.5
+    unemployment_wealth = 8
+    portrait_pose = { value = 1 }
+}

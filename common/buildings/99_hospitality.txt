@@ -1,0 +1,52 @@
+# Hospitality buildings
+building_bar = {
+    building_group = bg_hospitality
+    icon = "gfx/interface/icons/building_icons/bar.dds"
+    city_type = city
+    levels_per_mesh = 5
+    production_method_groups = {
+        pmg_base_building_bar
+    }
+    required_construction = construction_cost_low
+    ownership_type = self
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_restaurant = {
+    building_group = bg_hospitality
+    icon = "gfx/interface/icons/building_icons/restaurant.dds"
+    city_type = city
+    levels_per_mesh = 5
+    production_method_groups = {
+        pmg_base_building_restaurant
+    }
+    required_construction = construction_cost_medium
+    ownership_type = self
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_cafe = {
+    building_group = bg_hospitality
+    icon = "gfx/interface/icons/building_icons/cafe.dds"
+    city_type = city
+    levels_per_mesh = 5
+    production_method_groups = {
+        pmg_base_building_cafe
+    }
+    required_construction = construction_cost_low
+    ownership_type = self
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+
+building_dispensary = {
+    building_group = bg_hospitality
+    icon = "gfx/interface/icons/building_icons/dispensary.dds"
+    city_type = city
+    levels_per_mesh = 5
+    production_method_groups = {
+        pmg_base_building_dispensary
+    }
+    required_construction = construction_cost_low
+    ownership_type = self
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

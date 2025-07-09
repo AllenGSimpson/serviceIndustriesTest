@@ -1,0 +1,9 @@
+l_english:
+ building_bar:0 "Bar"
+ building_bar_lens_option:0 "Expand $building_bar$"
+ building_restaurant:0 "Restaurant"
+ building_restaurant_lens_option:0 "Expand $building_restaurant$"
+ building_cafe:0 "Café"
+ building_cafe_lens_option:0 "Expand $building_cafe$"
+ building_dispensary:0 "Dispensary"
+ building_dispensary_lens_option:0 "Expand $building_dispensary$"

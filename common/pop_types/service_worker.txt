@@ -1,0 +1,14 @@
+service_worker = {
+    texture = "gfx/interface/icons/pops_icons/service_worker.dds"
+    color = hsv{ 0.15 0.40 0.70 }
+    unemployment = yes
+    wage_weight = 1.2
+    paid_private_wage = yes
+    literacy_target = 0.10
+    political_engagement_base = 0.2
+    political_engagement_literacy_factor = 0.6
+    start_quality_of_life = 6
+    dependent_wage = 0.5
+    unemployment_wealth = 6
+    portrait_pose = { value = 0 }
+}

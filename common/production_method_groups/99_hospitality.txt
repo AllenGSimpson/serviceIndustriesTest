@@ -1,0 +1,30 @@
+pmg_base_building_bar = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_bar_beer
+        pm_bar_liquor
+    }
+}
+
+pmg_base_building_restaurant = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_restaurant_meat
+        pm_restaurant_groceries
+    }
+}
+
+pmg_base_building_cafe = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_cafe_coffee
+        pm_cafe_tea
+    }
+}
+
+pmg_base_building_dispensary = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_dispensary_tobacco
+    }
+}

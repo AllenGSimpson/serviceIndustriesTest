@@ -1,0 +1,10 @@
+# Hospitality buildings providing services
+bg_hospitality = {
+    parent_group = bg_service
+    category = urban
+    lens = development
+    economy_of_scale = yes
+    cash_reserves_max = 25000
+    urbanization = 10
+    infrastructure_usage_per_level = 1
+}

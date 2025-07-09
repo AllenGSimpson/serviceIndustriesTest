@@ -1,0 +1,52 @@
+# Service sector expansion goods definitions
+# Added for mod as described in Goals.md
+
+beer = {
+    texture = "gfx/interface/icons/goods_icons/beer.dds"
+    cost = 20
+    category = consumer
+    obsession_chance = 2.0
+    prestige_factor = 4
+    traded_quantity = 8 # 240
+    convoy_cost_multiplier = 0.75
+}
+
+service_beer = {
+    texture = "gfx/interface/icons/goods_icons/service_beer.dds"
+    cost = 30
+    category = service
+    local = yes
+    consumption_tax_cost = 200
+}
+
+service_liquor = {
+    texture = "gfx/interface/icons/goods_icons/service_liquor.dds"
+    cost = 30
+    category = service
+    local = yes
+    consumption_tax_cost = 200
+}
+
+service_food = {
+    texture = "gfx/interface/icons/goods_icons/service_food.dds"
+    cost = 30
+    category = service
+    local = yes
+    consumption_tax_cost = 200
+}
+
+service_coffee = {
+    texture = "gfx/interface/icons/goods_icons/service_coffee.dds"
+    cost = 30
+    category = service
+    local = yes
+    consumption_tax_cost = 200
+}
+
+service_tobacco = {
+    texture = "gfx/interface/icons/goods_icons/service_tobacco.dds"
+    cost = 30
+    category = service
+    local = yes
+    consumption_tax_cost = 200
+}

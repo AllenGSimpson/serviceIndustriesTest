@@ -1,0 +1,11 @@
+l_english:
+ service_workers:0 "@service_workers! $service_workers_no_icon$"
+ service_workers_only_icon:0 "@service_workers!"
+ service_workers_no_icon:0 "Service Workers"
+ service_workers_desc:0 "Low-skill urban employees in hospitality and retail establishments. They often join the Trade Unions or the Petite Bourgeoisie."
+ managers:0 "@managers! $managers_no_icon$"
+ managers_only_icon:0 "@managers!"
+ managers_no_icon:0 "Managers"
+ managers_desc:0 "Supervisors and floor managers coordinating service staff. They tend to support the Petty Bourgeoisie or Industrialists."
+ SERVICE_WORKERS_QUALIFICATIONS_DESC:0 "Pops with basic [concept_literacy] can become #v $service_workers$#!. Potential increases with greater [concept_literacy]. #v $laborers$#! and #v $peasants$#! have a particularly easy time becoming #v $service_workers$#!."
+ MANAGERS_QUALIFICATIONS_DESC:0 "Experienced #v $service_workers$#! and #v $clerks$#! can promote to #v $managers$#! with sufficient [concept_literacy] and [concept_wealth]."

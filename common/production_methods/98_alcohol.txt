@@ -1,0 +1,27 @@
+pm_brew_grain = {
+    texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_grain_add = 40
+            goods_output_beer_add = 30
+        }
+        level_scaled = {
+            building_employment_shopkeepers_add = 500
+            building_employment_laborers_add = 4500
+        }
+    }
+}
+
+pm_distill_grain = {
+    texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_grain_add = 40
+            goods_output_liquor_add = 30
+        }
+        level_scaled = {
+            building_employment_shopkeepers_add = 500
+            building_employment_laborers_add = 4500
+        }
+    }
+}

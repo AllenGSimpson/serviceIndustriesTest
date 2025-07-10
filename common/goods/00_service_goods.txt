@@ -6,33 +6,21 @@ beer = {
     obsession_chance = 1.0
     prestige_factor = 4
 }
-service_beer = {
-    texture = "gfx/interface/icons/goods_icons/service_beer.dds"
-    cost = 25
+service_entertainment_low = {
+    texture = "gfx/interface/icons/goods_icons/service_entertainment_low.dds"
+    cost = 30
     category = luxury
     local = yes
 }
-service_liquor = {
-    texture = "gfx/interface/icons/goods_icons/service_liquor.dds"
-    cost = 30
+service_entertainment_high = {
+    texture = "gfx/interface/icons/goods_icons/service_entertainment_high.dds"
+    cost = 35
     category = luxury
     local = yes
 }
 service_food = {
     texture = "gfx/interface/icons/goods_icons/service_food.dds"
     cost = 25
-    category = luxury
-    local = yes
-}
-service_coffee = {
-    texture = "gfx/interface/icons/goods_icons/service_coffee.dds"
-    cost = 35
-    category = luxury
-    local = yes
-}
-service_tobacco = {
-    texture = "gfx/interface/icons/goods_icons/service_tobacco.dds"
-    cost = 30
     category = luxury
     local = yes
 }

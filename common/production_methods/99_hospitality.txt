@@ -43,8 +43,8 @@ pm_bar_mixed = {
         workforce_scaled = {
             goods_input_beer_add = 5
             goods_input_liquor_add = 5
-            goods_output_service_beer_add = 4
-            goods_output_service_liquor_add = 4
+            goods_output_service_entertainment_low_add = 4
+            goods_output_service_entertainment_high_add = 4
         }
         level_scaled = {
             building_employment_service_workers_add = 4500

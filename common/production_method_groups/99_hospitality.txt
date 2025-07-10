@@ -3,6 +3,7 @@ pmg_base_building_bar = {
     production_methods = {
         pm_bar_beer
         pm_bar_liquor
+        pm_bar_prohibition
     }
 }
 

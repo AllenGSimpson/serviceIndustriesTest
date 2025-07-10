@@ -21,6 +21,21 @@ pm_bar_liquor = {
         }
     }
 }
+pm_bar_prohibition = {
+    texture = "gfx/interface/icons/production_method_icons/bar_prohibition.dds"
+    state_modifiers = {
+        workforce_scaled = { state_turmoil_effects_mult = 0.25 }
+    }
+    building_modifiers = {
+        workforce_scaled = { goods_output_entertainment_add = 6 }
+        level_scaled = {
+            building_employment_service_workers_add = 4500
+            building_employment_managers_add = 450
+            building_employment_capitalists_add = 50
+        }
+    }
+}
+
 
 pm_restaurant_meat = {
     texture = "gfx/interface/icons/production_method_icons/restaurant_meat.dds"

@@ -1,4 +1,4 @@
-managers = {
+﻿managers = {
     texture = "gfx/interface/icons/pops_icons/managers.dds"
     color = hsv{ 0.55 0.45 0.75 }
     start_quality_of_life = 8

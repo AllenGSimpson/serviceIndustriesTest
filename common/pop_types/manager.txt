@@ -1,4 +1,4 @@
-manager = {
+﻿manager = {
     texture = "gfx/interface/icons/pops_icons/manager.dds"
     color = hsv{ 0.28 0.45 0.80 }
     unemployment = yes

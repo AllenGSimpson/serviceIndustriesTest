@@ -1,4 +1,4 @@
-# Hospitality buildings
+﻿# Hospitality buildings
 building_bar = {
     building_group = bg_hospitality
     icon = "gfx/interface/icons/building_icons/bar.dds"

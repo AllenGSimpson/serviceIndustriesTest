@@ -1,4 +1,4 @@
-pm_bar_beer = {
+﻿pm_bar_beer = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     building_modifiers = {
         workforce_scaled = { goods_input_beer_add = 10 goods_output_service_entertainment_low_add = 8 }

@@ -1,4 +1,4 @@
-# Hospitality buildings providing services
+﻿# Hospitality buildings providing services
 bg_hospitality = {
     parent_group = bg_service
     category = urban

@@ -1,4 +1,4 @@
-service_worker = {
+﻿service_worker = {
     texture = "gfx/interface/icons/pops_icons/service_worker.dds"
     color = hsv{ 0.15 0.40 0.70 }
     unemployment = yes

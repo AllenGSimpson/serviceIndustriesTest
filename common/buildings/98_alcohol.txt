@@ -1,4 +1,4 @@
-# Alcohol production buildings
+﻿# Alcohol production buildings
 building_brewery = {
     building_group = bg_alcohol_industry
     icon = "gfx/interface/icons/building_icons/brewery.dds"

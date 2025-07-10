@@ -1,4 +1,4 @@
-# New service and consumer goods
+﻿# New service and consumer goods
 beer = {
     texture = "gfx/interface/icons/goods_icons/liquor.dds"
     #texture = "gfx/interface/icons/goods_icons/beer.dds"

@@ -1,4 +1,4 @@
-# Alcohol production buildings
+﻿# Alcohol production buildings
 bg_alcohol_industry = {
     parent_group = bg_light_industry
     category = urban

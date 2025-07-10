@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  service_workers:0 "@service_workers! $service_workers_no_icon$"
  service_workers_only_icon:0 "@service_workers!"
  service_workers_no_icon:0 "Service Workers"

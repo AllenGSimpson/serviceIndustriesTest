@@ -1,7 +1,5 @@
 l_english:
  beer:0 "Beer"
- service_beer:0 "Beer Service"
- service_liquor:0 "Spirit Service"
+ service_entertainment_low:0 "Basic Entertainment"
+ service_entertainment_high:0 "Premium Entertainment"
  service_food:0 "Prepared Meals"
- service_coffee:0 "Coffee Service"
- service_tobacco:0 "Tobacco Service"

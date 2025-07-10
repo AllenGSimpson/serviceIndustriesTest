@@ -38,11 +38,9 @@
 | Tag               | Category     | Consumed by POP need         | Supplied by          | Notes                                      |
 | ----------------- | ------------ | ---------------------------- | -------------------- | ------------------------------------------ |
 | `beer`            | **consumer** | Luxury Drinks (poor/avg)     | Breweries (existing) | Split from Liquor; base price 20.          |
-| `service_beer`    | **service**  | Luxury Drinks (¾ weight)     | **Bar** (Beer PM)    | Counts as 1.25 × *Beer* when meeting need. |
-| `service_liquor`  | service      | Luxury Drinks (full weight)  | Bar (Liquor PM)      | Premium; yields +Prestige in rich states.  |
 | `service_food`    | service      | Staple Food (rich weight)    | **Restaurant**       | Uses Meat or Groceries.                    |
-| `service_coffee`  | service      | Luxury Drinks (middle-class) | **Café**             | Requires Coffee input.                     |
-| `service_tobacco` | service      | Luxury Drinks (poor/middle)  | **Dispensary**       | Requires Tobacco input.                    |
+| `service_entertainment_low`  | service      | Luxury Drinks (basic venues) | Bars & Cafés        | Replaces beer/coffee services.             |
+| `service_entertainment_high` | service      | Luxury Drinks (premium)      | Bars & Dispensaries | Replaces liquor/tobacco services.          |
 
 ### 4.2  New POP Types
 

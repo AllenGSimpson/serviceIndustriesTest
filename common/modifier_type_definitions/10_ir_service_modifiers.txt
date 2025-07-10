@@ -1,0 +1,75 @@
+# Service industry specific modifiers
+# Added for Industrial Revolution mod
+
+goods_input_beer_add={
+        decimals=1
+        color=bad
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_output_beer_add={
+        decimals=1
+        color=good
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_input_coffee_add={
+        decimals=1
+        color=bad
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_input_tea_add={
+        decimals=1
+        color=bad
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_output_service_entertainment_low_add={
+        decimals=1
+        color=good
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_output_service_entertainment_high_add={
+        decimals=1
+        color=good
+        game_data={
+                ai_value=0
+        }
+}
+
+goods_output_service_food_add={
+        decimals=1
+        color=good
+        game_data={
+                ai_value=0
+        }
+}
+
+building_employment_service_workers_add={
+        decimals=0
+        color=neutral
+        game_data={
+                ai_value=0
+        }
+}
+
+building_employment_managers_add={
+        decimals=0
+        color=neutral
+        game_data={
+                ai_value=0
+        }
+}
+

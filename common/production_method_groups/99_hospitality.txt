@@ -5,7 +5,6 @@
         pm_bar_liquor
         pm_bar_prohibition
         pm_bar_mixed
-        pm_bar_prohibition
     }
 }
 

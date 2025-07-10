@@ -141,3 +141,20 @@
 * [ ] Tick time impact measured < +5 % in 1880 save on reference PC.
 * [ ] No top‑level UI overflow; all new goods/localisations display correctly.
 
+
+---
+
+## 10  | Future Entertainment Buildings
+
+Several additional service industries are planned for a later phase of the mod. These include:
+
+- Opera House
+- Theater
+- Bandstand
+- Sports Stadium
+- Radio Station
+- Movie Theater
+- Film Studio
+
+Implementation notes and open tasks are tracked in [docs/entertainment_buildings_tasks.md](docs/entertainment_buildings_tasks.md).
+

@@ -2,6 +2,7 @@ l_english:
  pm_bar_beer:0 "Beer Hall"
  pm_bar_liquor:0 "Spirit Bar"
  pm_bar_mixed:0 "Mixed Bar"
+ pm_bar_prohibition:0 "Prohibition"
  pm_restaurant_meat:0 "Bistro"
  pm_restaurant_groceries:0 "Grocers' Kitchen"
  pm_cafe_coffee:0 "Coffeehouse"

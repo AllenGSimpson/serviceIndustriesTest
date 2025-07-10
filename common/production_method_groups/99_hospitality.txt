@@ -4,6 +4,8 @@ pmg_base_building_bar = {
         pm_bar_beer
         pm_bar_liquor
         pm_bar_mixed
+        pm_bar_prohibition
+
     }
 }
 

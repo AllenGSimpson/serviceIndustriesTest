@@ -38,11 +38,9 @@
 | Tag               | Category     | Consumed by POP need         | Supplied by          | Notes                                      |
 | ----------------- | ------------ | ---------------------------- | -------------------- | ------------------------------------------ |
 | `beer`            | **consumer** | Luxury Drinks (poor/avg)     | Breweries (existing) | Split from Liquor; base price 20.          |
-| `service_beer`    | **service**  | Luxury Drinks (¾ weight)     | **Bar** (Beer PM)    | Counts as 1.25 × *Beer* when meeting need. |
-| `service_liquor`  | service      | Luxury Drinks (full weight)  | Bar (Liquor PM)      | Premium; yields +Prestige in rich states.  |
 | `service_food`    | service      | Staple Food (rich weight)    | **Restaurant**       | Uses Meat or Groceries.                    |
-| `service_coffee`  | service      | Luxury Drinks (middle-class) | **Café**             | Requires Coffee input.                     |
-| `service_tobacco` | service      | Luxury Drinks (poor/middle)  | **Dispensary**       | Requires Tobacco input.                    |
+| `service_entertainment_low`  | service      | Luxury Drinks (basic venues) | Bars & Cafés        | Replaces beer/coffee services.             |
+| `service_entertainment_high` | service      | Luxury Drinks (premium)      | Bars & Dispensaries | Replaces liquor/tobacco services.          |
 
 ### 4.2  New POP Types
 
@@ -55,7 +53,7 @@
 
 | Building (group)             | Default PMs                                                                                                                                                                                    | Inputs                | Outputs & effects                                                              | Workforce mix                                     |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------- |
-| **Bar** (Hospitality)        | 1. **Beer Hall** (unlocked 1830): consumes Beer → `service_beer`.<br>2. **Spirit Bar** (unlocks Distillation): consumes Liquor → `service_liquor`.<br>3. (Optional) *Mixed Bar* toggles ratio. | Beer **or** Liquor    | Generates +Jazz Age prestige after 1900 if >10 % state employment.             | 90 % Service\_Worker, 9 % Manager, 1 % Capitalist |
+| **Bar** (Hospitality)        | 1. **Beer Hall** (unlocked 1830): consumes Beer → `service_beer`.<br>2. **Spirit Bar** (unlocks Distillation): consumes Liquor → `service_liquor`.<br>3. (Optional) *Mixed Bar* toggles ratio.<br>4. **Prohibition**: increases penalties from state turmoil; produces the `entertainment` good. | Beer **or** Liquor    | Generates +Jazz Age prestige after 1900 if >10 % state employment.             | 90 % Service\_Worker, 9 % Manager, 1 % Capitalist |
 | **Restaurant** (Hospitality) | 1. **Bistro**: Meat → `service_food`.<br>2. **Grocers’ Kitchen** (tech: Canning): Groceries → service\_food (+20 % throughput).                                                                | Meat **or** Groceries | -5 % Pop Mortality (urban malnutrition) in state if service\_food < price 40.  | 85 % SW, 14 % Mgr, 1 % Cap                        |
 | **Café**                     | 1. **Coffeehouse**: Coffee → `service_coffee`.<br>2. **Tea Room** (tech: Tea Culture): Tea → service\_coffee (less throughput, +Literacy gain).                                                | Coffee or Tea         | Pops in state get +0.05 monthly Literacy if service\_coffee cheap.             | 88 % SW, 11 % Mgr, 1 % Cap                        |
 | **Dispensary**               | 1. **Tobacconist**: Tobacco → `service_tobacco`.                                                                                                                                               | Tobacco               | Increases SoL happiness modifier for Pops with Luxury Drink need filled 100 %. | 92 % SW, 7 % Mgr, 1 % Cap                         |

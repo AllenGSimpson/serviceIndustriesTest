@@ -11,17 +11,17 @@ beer = {
     convoy_cost_multiplier = 0.75
 }
 
-service_beer = {
-    texture = "gfx/interface/icons/goods_icons/service_beer.dds"
+service_entertainment_low = {
+    texture = "gfx/interface/icons/goods_icons/service_entertainment_low.dds"
     cost = 30
     category = service
     local = yes
     consumption_tax_cost = 200
 }
 
-service_liquor = {
-    texture = "gfx/interface/icons/goods_icons/service_liquor.dds"
-    cost = 30
+service_entertainment_high = {
+    texture = "gfx/interface/icons/goods_icons/service_entertainment_high.dds"
+    cost = 35
     category = service
     local = yes
     consumption_tax_cost = 200
@@ -35,18 +35,3 @@ service_food = {
     consumption_tax_cost = 200
 }
 
-service_coffee = {
-    texture = "gfx/interface/icons/goods_icons/service_coffee.dds"
-    cost = 30
-    category = service
-    local = yes
-    consumption_tax_cost = 200
-}
-
-service_tobacco = {
-    texture = "gfx/interface/icons/goods_icons/service_tobacco.dds"
-    cost = 30
-    category = service
-    local = yes
-    consumption_tax_cost = 200
-}

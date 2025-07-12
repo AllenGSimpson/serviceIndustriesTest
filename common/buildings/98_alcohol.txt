@@ -5,7 +5,9 @@ building_brewery = {
     city_type = city
     levels_per_mesh = 5
     production_method_groups = {
-        pmg_base_building_brewery
+        pmg_methodology_building_brewery
+        pmg_fermentation_regime_building_brewery
+        pmg_packaging_building_brewery
     }
     required_construction = construction_cost_low
     ownership_type = self

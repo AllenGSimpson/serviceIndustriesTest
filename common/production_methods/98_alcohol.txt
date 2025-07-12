@@ -34,10 +34,9 @@ pm_methodology_traditional = {
             goods_output_beer_add = 8
         }
         level_scaled = {
-            building_employment_shopkeepers_add = 500
-            building_employment_laborers_add = 4275
-            building_employment_clerks_add = 135
-            building_employment_managers_add = 90
+            building_employment_laborers_add = 95
+            building_employment_clerks_add = 3
+            building_employment_managers_add = 2
         }
     }
 }
@@ -50,11 +49,10 @@ pm_methodology_steam = {
             goods_output_beer_add = 12
         }
         level_scaled = {
-            building_employment_shopkeepers_add = 500
-            building_employment_laborers_add = 3600
-            building_employment_machinists_add = 225
-            building_employment_clerks_add = 450
-            building_employment_managers_add = 225
+            building_employment_laborers_add = 60
+            building_employment_machinists_add = 8
+            building_employment_clerks_add = 10
+            building_employment_managers_add = 4
         }
     }
 }
@@ -67,11 +65,10 @@ pm_methodology_refrigerated = {
             goods_output_beer_add = 16
         }
         level_scaled = {
-            building_employment_shopkeepers_add = 500
-            building_employment_laborers_add = 3150
-            building_employment_machinists_add = 450
-            building_employment_clerks_add = 675
-            building_employment_managers_add = 225
+            building_employment_laborers_add = 45
+            building_employment_machinists_add = 12
+            building_employment_clerks_add = 10
+            building_employment_managers_add = 5
         }
     }
 }
@@ -84,11 +81,10 @@ pm_methodology_scientific = {
             goods_output_beer_add = 20
         }
         level_scaled = {
-            building_employment_shopkeepers_add = 500
-            building_employment_laborers_add = 2475
-            building_employment_machinists_add = 675
-            building_employment_clerks_add = 900
-            building_employment_managers_add = 450
+            building_employment_laborers_add = 35
+            building_employment_machinists_add = 12
+            building_employment_clerks_add = 13
+            building_employment_managers_add = 5
         }
     }
 }
@@ -101,11 +97,10 @@ pm_methodology_automated = {
             goods_output_beer_add = 24
         }
         level_scaled = {
-            building_employment_shopkeepers_add = 500
-            building_employment_laborers_add = 1800
-            building_employment_machinists_add = 1800
-            building_employment_clerks_add = 675
-            building_employment_managers_add = 225
+            building_employment_laborers_add = 25
+            building_employment_machinists_add = 13
+            building_employment_clerks_add = 12
+            building_employment_managers_add = 5
         }
     }
 }
@@ -117,7 +112,7 @@ pm_warm_ale = {
 pm_lager_cellar = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     state_modifiers = {
-        workforce_scaled = { building_throughput_add = 0.20 }
+        workforce_scaled = { building_throughput_add = 0.15 }
     }
     unlocking_technologies = { electrical_generation }
 }
@@ -125,7 +120,7 @@ pm_lager_cellar = {
 pm_pure_culture = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     state_modifiers = {
-        workforce_scaled = { building_throughput_add = 0.50 }
+        workforce_scaled = { building_throughput_add = 0.24 }
     }
     unlocking_technologies = { vacuum_canning }
 }
@@ -133,7 +128,7 @@ pm_pure_culture = {
 pm_cask_only = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     building_modifiers = {
-        workforce_scaled = { goods_input_wood_add = 5 }
+        workforce_scaled = { goods_input_wood_add = 270 }
     }
 }
 
@@ -141,8 +136,8 @@ pm_mixed_cask_bottle = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     building_modifiers = {
         workforce_scaled = {
-            goods_input_wood_add = 3
-            goods_input_glass_add = 2
+            goods_input_wood_add = 135
+            goods_input_glass_add = 394
         }
     }
 }
@@ -150,6 +145,6 @@ pm_mixed_cask_bottle = {
 pm_bottle_only = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
     building_modifiers = {
-        workforce_scaled = { goods_input_glass_add = 6 }
+        workforce_scaled = { goods_input_glass_add = 787 }
     }
 }

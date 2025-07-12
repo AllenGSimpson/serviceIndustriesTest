@@ -1,7 +1,29 @@
-﻿pmg_base_building_brewery = {
+pmg_methodology_building_brewery = {
     texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
     production_methods = {
-        pm_brew_grain
+        pm_methodology_traditional
+        pm_methodology_steam
+        pm_methodology_refrigerated
+        pm_methodology_scientific
+        pm_methodology_automated
+    }
+}
+
+pmg_fermentation_regime_building_brewery = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_warm_ale
+        pm_lager_cellar
+        pm_pure_culture
+    }
+}
+
+pmg_packaging_building_brewery = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_cask_only
+        pm_mixed_cask_bottle
+        pm_bottle_only
     }
 }
 

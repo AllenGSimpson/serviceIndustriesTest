@@ -59,6 +59,9 @@ pm_methodology_steam = {
 
 pm_methodology_refrigerated = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
+    unlocking_production_methods = {
+        pm_lager_cellar
+    }
     building_modifiers = {
         workforce_scaled = {
             goods_input_grain_add = 21
@@ -75,6 +78,9 @@ pm_methodology_refrigerated = {
 
 pm_methodology_scientific = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
+    unlocking_production_methods = {
+        pm_pure_culture
+    }
     building_modifiers = {
         workforce_scaled = {
             goods_input_grain_add = 27
@@ -91,6 +97,9 @@ pm_methodology_scientific = {
 
 pm_methodology_automated = {
     texture = "gfx/interface/icons/production_method_icons/bar_beer.dds"
+    unlocking_production_methods = {
+        pm_pure_culture
+    }
     building_modifiers = {
         workforce_scaled = {
             goods_input_grain_add = 32
